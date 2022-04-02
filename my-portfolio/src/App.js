@@ -1,20 +1,28 @@
-// src/App.js
-
-import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-
-export default function App() {
+//import logo from './logo.svg';
+import backgroundVideo from './halo-loop.mp4';
+import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Welcome from './components/Welcome/Welcome';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
+/*import Contact from './components/Contact/Contact';
+ */
+function App() {
   return (
-    <main className="text-warrior-yellow bg-warrior-blue body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+    <main>
+        <div className='topbar'>
+        <video autoPlay loop muted id='video'>
+          <source src={backgroundVideo} type='video/mp4'/>
+        </video>
+        <Navbar />
+        <Welcome />
+        </div>
+        <About />
+        <Projects />
+        <Skills />
     </main>
   );
 }
+
+export default App;

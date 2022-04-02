@@ -1,0 +1,28 @@
+body {
+    width: auto;
+    margin: 0%;
+}
+
+#job {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+#firstname {
+    color: #6BB8FE;
+}
+
+.welcome {
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-family: 'Quicksand';
+    margin-top: 15%; 
+}

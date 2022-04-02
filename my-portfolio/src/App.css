@@ -1,0 +1,18 @@
+.topbar {/* 
+    background-image: url(../public/halo-ring2.jpg); */
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: 0px 80%;
+    background-size: 100% 116%;
+    padding-bottom: 380px;
+}
+
+#video {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}

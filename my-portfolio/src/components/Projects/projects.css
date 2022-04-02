@@ -1,0 +1,46 @@
+.projects {
+    background-image: url(../../../public/halo-ring3.jpg);
+}
+
+#project_header {
+    margin: 0%;
+    padding-top: 3%;
+    height: auto;
+    color:  #FFFFFF;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 69px;
+}
+
+.slider {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.project-title {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 69px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: #0285BC;
+}
+
+.description {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding: 2% 6% 4%;
+    color: #FFFFFF;
+}

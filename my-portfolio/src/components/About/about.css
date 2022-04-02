@@ -1,0 +1,54 @@
+.about {
+    /* background-image: url(../../../public/halo-ring3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    display: flex;
+    background-color: #1F4F5D;
+    margin: 0%;
+    padding-top: 0%;
+   /*  padding-bottom: 6%; */
+}
+
+#title {
+    margin: 0%;
+    padding-top: 5% ;
+    padding-bottom: 2% ;
+    height: auto;
+    color:  #FFFFFF;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 69px;
+}
+
+#aboutme {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+
+.container {
+    width: 50%;
+    text-align: center;
+}
+
+.image-container {
+    width: 419px;
+    height: 410px;
+    display: inline-block;
+    margin-top: 25%;
+    border-radius: 205px;
+    background-color: aqua;
+    background-image: url(../../../public/pdp.png);
+    background-position: 30%;
+}
