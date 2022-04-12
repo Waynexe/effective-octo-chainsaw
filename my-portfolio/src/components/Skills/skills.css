@@ -1,3 +1,7 @@
+#skills {
+    background-color: #1F4F5D;
+}
+
 .container4 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -24,7 +28,7 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 10%;
+    padding-bottom: 4%;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
 }

@@ -1,12 +1,8 @@
 .about {
-    /* background-image: url(../../../public/halo-ring3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
     display: flex;
     background-color: #1F4F5D;
     margin: 0%;
     padding-top: 0%;
-   /*  padding-bottom: 6%; */
 }
 
 #title {
@@ -46,9 +42,67 @@
     width: 419px;
     height: 410px;
     display: inline-block;
-    margin-top: 25%;
+    margin-top: 20%;
+    margin-bottom: 1%;
+    cursor: pointer;
     border-radius: 205px;
     background-color: aqua;
     background-image: url(../../../public/pdp.png);
     background-position: 30%;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.image-container:hover {
+    width: 422px;
+    height: 413px;
+    transition: .5s;
+}
+
+.cpr-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#cpr{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.logos a img{
+    padding: 0 10px;
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+.logos a img:hover {
+    transition: .5s;
+    transform: rotate(360deg);
+}
+
+.cv-link {
+    padding: 15px 0;
+}
+
+.cv-link a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.cv-link a:hover{
+    color: orangered;
+}
+
+.cv-link a:active{
+    color: #FFFFFF;
 }

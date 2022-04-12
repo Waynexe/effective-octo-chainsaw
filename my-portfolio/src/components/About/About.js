@@ -24,7 +24,25 @@ const About = () => {
         </div>
         <div className='container'>
           <div className='image-container'>
-
+          </div>
+          <div class ="line">
+            <nav className='logos'>
+              <a href="https://www.linkedin.com/in/manihiki-tuahivaatetonohiti-13221a216/" target ="_blank" rel='noreferrer'>
+                <img src="./linkedin.png" alt="linkedin logo" />
+              </a>
+              <a href="https://www.instagram.com/waynexe_/" target ="_blank" rel='noreferrer'>
+                <img src="./instagram.png" alt="instagram logo" />
+              </a>
+              <a href="https://www.facebook.com/manihiki.tuahivaatetonohiti/" target ="_blank" rel='noreferrer'>
+                <img src="./facebook.png" alt="facebook logo" />
+              </a>
+              <a href="https://github.com/Waynexe" target ="_blank" rel='noreferrer'>
+                <img src="./github.png" alt="facebook logo" />
+              </a>
+            </nav>
+          </div>
+          <div className='cv-link'>
+            <a href='./CV Manihiki Tuahivaatetonohiti.pdf' download>Télécharger mon CV</a>
           </div>
         </div>
     </section>

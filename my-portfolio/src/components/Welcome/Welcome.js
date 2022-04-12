@@ -4,7 +4,7 @@ import './welcome.css';
 const Welcome = () => {
   return (
     <div className='welcome'>
-      <p className='name'><span id='firstname'>Manihiki</span> Tuahivaatetonohiti </p>
+      <p className='name'><a href='#about' id='firstname'>Manihiki</a> Tuahivaatetonohiti </p>
       <p id='job'>Intégrateur Développeur Web</p>
     </div>
   )

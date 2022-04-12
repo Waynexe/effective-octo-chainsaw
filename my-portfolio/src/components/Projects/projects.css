@@ -4,7 +4,7 @@
 
 #project_header {
     margin: 0%;
-    padding-top: 3%;
+    padding-top: 1%;
     height: auto;
     color:  #FFFFFF;
     text-align: center;
@@ -18,8 +18,8 @@
 .slider {
     padding-top: 3%;
     padding-bottom: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 .project-title {
@@ -31,16 +31,37 @@
     text-align: center;
     padding-top: 2%;
     padding-bottom: 3%;
-    color: #0285BC;
+    color: #5fc3ee;
 }
 
 .description {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 40px;
     text-align: center;
     padding: 2% 6% 4%;
     color: #FFFFFF;
 }
+
+.project {
+    position: relative;
+    height: 100%;
+}
+
+.middle {
+    height: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+.project:hover img{
+    opacity: 0.5;
+}
+
+.project:hover .middle {
+    opacity: 1;
+    background-color: #054E79CC;
+}
+

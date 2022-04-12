@@ -1,0 +1,197 @@
+#contact {
+    background-image: url(../../../public/halo-ring4.jpg);
+    background-size: auto;
+}
+
+.contact-header {
+    margin: 0%;
+    padding-top: 1%;
+    height: auto;
+    color:  #FFFFFF;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 69px;
+}
+
+.container5 {
+    padding: 5rem 2.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.contact_container {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 2.5rem;
+    margin-right: 2.5rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.map {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.contact_info {
+    background-color: #111827;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 0;
+    border-radius: 0.25rem;
+}
+
+.address_block {
+    padding: 0 1.5rem;
+}
+
+.info_header {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.email_header {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.phone_header {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+#para {
+    font-family: 'Quicksand';
+    font-size: medium;
+    font-weight: 550;
+    color: aqua;
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+}
+
+.right_side {
+    padding: 0 1.5rem;
+}
+
+.email {
+    font-family: 'Quicksand';
+    font-size: medium;
+    font-weight: 550;
+    color: blue;
+    margin-top: 0.25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#phone {
+    font-family: 'Quicksand';
+    font-size: medium;
+    font-weight: 550;
+    color: aqua;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.label-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2rem 0;
+}
+
+.contact-text {
+    font-family: 'Quicksand';
+    line-height: 1.625;
+    margin-bottom: 1.25rem;
+    color: aquamarine;
+}
+
+.label {
+    font-family: 'Quicksand';
+    line-height: 1.75rem;
+    font-size: 0.875rem;
+    color: aliceblue;
+}
+
+#name, #email, #message{
+    width: 100%;
+    background-color: #111827;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(55, 65, 81);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: #FFFFFF;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#message {
+    height: 8rem;
+    resize: none;
+    line-height: 1.5rem;
+}
+
+#name:focus, #email:focus, #message:focus{
+    border-color: rgb(99, 102, 241);
+    box-shadow: rgb(49, 46, 129) 0px 1px 4px;
+}
+
+.send {
+    color: #FFFFFF;
+    background-color: rgb(99, 102, 241);
+    border-width: 0px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.send:hover {
+    background-color: rgb(79, 70, 229);
+}
+
+.send:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}

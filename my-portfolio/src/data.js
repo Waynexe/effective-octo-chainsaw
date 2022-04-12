@@ -35,6 +35,24 @@ export const projects = [
       image: "./project-4.jpg",
       alt: "hyrule castle",
     },
+    {
+      title: "My Portfolio 1.0",
+      subtitle: "ReactJs, Tailwind CSS",
+      description1: "Comme le nom l'indique, une première version de mon Portfolio a été faite avec les outils de ReactJs.",
+      description2: "Ce Portfolio a aussi été l'un de mes premiers projets réalisés avec la framework ReactJs quand j'apprenais encore à l'utiliser. Ce n'était pas un projet compliqué, mais j'ai appris énormément de choses sur React grâce à ce dernier.",
+      description3: "Pour réaliser ce projet j'ai non seulement la framework ReactJs mais aussi l'outil Tailwind CSS pour stylisé mon Portfolio.",
+      image: "./project-5.png",
+      alt: "my_potfolio",
+    },
+    {
+      title: "Be Patient",
+      subtitle: "",
+      description1: "",
+      description2: "D'autres projets seront ajoutés au fil du temps, soyez patients ;)",
+      description3: "",
+      image: "./more.png",
+      alt: "more to come",
+    },
   ];
   
   export const skills = [
@@ -68,6 +86,10 @@ export const projects = [
     {
       skill: "Git",
       link: "https://git-scm.com",
+    },
+    {
+      skill: "PHP",
+      link: "https://www.php.net",
     },
   ];
   
