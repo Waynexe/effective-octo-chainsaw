@@ -1,0 +1,67 @@
+.projects {
+    background-image: url(../../../public/halo-ring3.jpg);
+}
+
+#project_header {
+    margin: 0%;
+    padding-top: 1%;
+    height: auto;
+    color:  #FFFFFF;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 69px;
+}
+
+.slider {
+    padding-top: 3%;
+    padding-bottom: 6%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.project-title {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 69px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    color: #5fc3ee;
+}
+
+.description {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    padding: 2% 6% 2%;
+    color: #FFFFFF;
+}
+
+.project {
+    position: relative;
+    height: 100%;
+}
+
+.middle {
+    height: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+.project:hover img{
+    opacity: 0.5;
+}
+
+.project:hover .middle {
+    opacity: 1;
+    background-color: #054E79CC;
+}
+
