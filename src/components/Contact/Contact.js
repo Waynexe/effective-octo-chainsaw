@@ -3,10 +3,6 @@ import emailjs from 'emailjs-com';
 import './contact.css';
 
 export default function Contact() {
-/*   const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState(""); */
-
   function sendEmail(e) {
     e.preventDefault();
 
