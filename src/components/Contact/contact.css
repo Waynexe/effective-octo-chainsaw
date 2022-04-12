@@ -1,6 +1,6 @@
 #contact {
     background-image: url(../../../public/halo-ring4.jpg);
-    background-size: auto;
+    background-size: auto; 
 }
 
 .contact-header {
@@ -24,6 +24,7 @@
 }
 
 .contact_container {
+    background-color: #111827;
     border-radius: 0.5rem;
     overflow: hidden;
     padding: 2.5rem;
